@@ -309,10 +309,10 @@
 
 <script type="text/javascript">
     // Add scrollspy to <body>
-    $('body').scrollspy({target: ".navbar .section-container", offset: 50});
+    $('body').scrollspy({target: "", offset: 50});
 
     // Add smooth scrolling on all links inside the navbar
-    $(".navbar-nav a .section-container").on('click', function(event) {
+    $("a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
